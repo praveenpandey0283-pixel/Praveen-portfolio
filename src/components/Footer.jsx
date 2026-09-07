@@ -7,18 +7,18 @@ const Footer = () => {
       {/* Top Row */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 w-full font-medium">
         <div className="flex flex-col gap-1">
-          <p>Cinematic & Creative Production</p>
-          <p>Lighting, Editing, Photo</p>
-          <p>Motion Graphics</p>
+          <p>Frontend & Web Development</p>
+          <p>React, JavaScript & Tailwind</p>
+          <p>Interactive & Modern UIs</p>
         </div>
         
         <div className="flex flex-col gap-1 md:items-center">
-          <p>5+ years of experience</p>
-          <a href="#work" className="underline hover:text-white transition-colors mt-1 underline-offset-4 decoration-1">View Work</a>
+          <p>Web Developer</p>
+          <a href="#services" className="underline hover:text-white transition-colors mt-1 underline-offset-4 decoration-1">My Workflow</a>
         </div>
         
         <div className="flex flex-col gap-1 md:items-end">
-          <p>Worldwide Available</p>
+          <p>Bhopal, India</p>
           <p>{new Date().getFullYear()}</p>
         </div>
       </div>
@@ -26,7 +26,7 @@ const Footer = () => {
       {/* Middle Huge Text */}
       <div className="w-full flex justify-center items-center py-20 md:py-24 overflow-hidden">
         <h2 className="text-[18vw] md:text-[16vw] leading-none font-sans font-bold tracking-tighter lowercase select-none text-[#f4f4f4] w-full text-center">
-          leeshark
+          praveen
         </h2>
       </div>
 
@@ -35,16 +35,22 @@ const Footer = () => {
         <div className="flex flex-col gap-6">
           <a href="#contact" className="underline hover:text-white transition-colors underline-offset-4 decoration-1 font-bold">Contact</a>
           <p className="text-white/60 font-mono text-[9px] md:text-[10px]">
-            &copy; {new Date().getFullYear()} Leeshark Studio | Built with React
+            &copy; {new Date().getFullYear()} CodePraveen | Built with React & Tailwind
           </p>
         </div>
         
-        <div className="flex flex-col gap-1 md:items-center">
-          <a href="mailto:hello@leeshark.com" className="underline hover:text-white transition-colors underline-offset-4 decoration-1 lowercase">hello@leeshark.com</a>
+        <div className="flex flex-col gap-2 md:items-center">
+          <a href="mailto:praveenpandey0283@gmail.com" className="underline hover:text-white transition-colors underline-offset-4 decoration-1 lowercase">
+            praveenpandey0283@gmail.com
+          </a>
+          <div className="flex gap-4 mt-1 text-[9px] text-gray-400">
+            <a href="https://github.com/praveenpandey0283-pixel" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GitHub</a>
+            <a href="https://instagram.com/Xitity" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Instagram</a>
+          </div>
         </div>
         
         <div className="flex flex-col gap-1 md:items-end">
-          <a href="#" className="underline hover:text-white transition-colors underline-offset-4 decoration-1">Privacy Policy</a>
+          <a href="#about" className="underline hover:text-white transition-colors underline-offset-4 decoration-1">Back to Top</a>
         </div>
       </div>
     </footer>
