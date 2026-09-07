@@ -55,7 +55,7 @@ const Hero = () => {
             data-aos="fade-up"
             className="text-white text-3xl md:text-5xl font-bold mb-4 tracking-tight"
           >
-            Hi, I’m a <br /> <span className="text-transparent [-webkit-text-stroke:1.5px_black]">Full Stack Developer</span>
+            Hi, I’m Praveen <br /> <span className="text-transparent [-webkit-text-stroke:1.5px_black]">Web Developer</span>
           </h1>
 
           {/* Subheading */}
@@ -64,7 +64,7 @@ const Hero = () => {
             data-aos-delay="200"
             className="text-white text-sm md:text-lg font-semibold mb-8 max-w-md drop-shadow-md"
           >
-            I build fast, scalable and modern web applications using React, Node.js and Tailwind CSS.
+            I build fast, responsive, and modern web applications with clean code and interactive experiences.
           </p>
 
           {/* Buttons */}
@@ -74,14 +74,20 @@ const Hero = () => {
             className="flex flex-row flex-wrap items-center gap-3 w-full"
           >
             {/* Primary Button */}
-            <button className="px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-md">
+            <a 
+              href="#services" 
+              className="px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-md inline-block text-center"
+            >
               View My Work
-            </button>
+            </a>
             
             {/* Secondary Button - Glassmorphism style */}
-            <button className="px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-black/40 border border-white text-white font-semibold hover:bg-black/60 transition-all duration-300 backdrop-blur-md">
+            <a 
+              href="#contact" 
+              className="px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-black/40 border border-white text-white font-semibold hover:bg-black/60 transition-all duration-300 backdrop-blur-md inline-block text-center"
+            >
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
 
